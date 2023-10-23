@@ -2,155 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>responsive-card</title>
-    <style>
-      .card-list {
-        background-color: gold;
-        border: 3px dotted black;
-        padding: 20px;
-      }
-
-      /* individual card  */
-      .card {
-        border: 3px solid #333;
-        background-color: #dfdfdf;
-        font-size: 20px;
-        padding: 15px;
-      }
-
-      .card__item {
-        border: 1px dashed;
-      }
-      .card__title {
-        margin: 0;
-      }
-
-      .card__img {
-        background-color: dodgerblue;
-        min-height: 100px;
-      }
-
-      /* Background Styles */
-      html {
-        height: 100%;
-        box-sizing: border-box;
-      }
-
-      *,
-      *:before,
-      *:after {
-        box-sizing: inherit;
-      }
-
-      body {
-        padding: 30px;
-      }
-
-      /* Add code for min-width: 576px */
-      @media screen and (min-width: 576px) {
-  .card {
-    margin: 1em 2em;
-  }
-}
-
-      /* Add code for min-width: 768px 
-      
-       HINT: You can use grid-column and grid-row for aligning the image at left end*/
-       @media screen and (min-width: 768px) {
-  .card {
-    display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-
-  }
-}
-
-       
-    </style>
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
   </head>
-
   <body>
-    <div class="card-list">
-      <div class="card">
-        <h3 class="card__item card__title">Title</h3>
-        <div class="card__item card__img">Image</div>
-        <div class="card__item card__description">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
-          deleniti incidunt rem. Voluptate, tempore quos, suscipit temporibus
-          autem sapiente.
-        </div>
-        <a href="#" class="card__item card__link">Read more</a>
+    <div id="container">
+      <!-- create div's here -->
+      <div id="b1">
+        <img src="https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*"/>
       </div>
-      <div class="card">
-        <h3 class="card__item card__title">Title</h3>
-        <div class="card__item card__img">Image</div>
-        <div class="card__item card__description">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
-          deleniti incidunt rem. Voluptate, tempore quos, suscipit temporibus
-          autem sapiente.
-        </div>
-        <a href="#" class="card__item card__link">Read more</a>
+      <div id="b2">
+        <img src="https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322868/golden-retriever-puppy.jpg" alt="">
       </div>
-      <div class="card">
-        <h3 class="card__item card__title">Title</h3>
-        <div class="card__item card__img">Image</div>
-        <div class="card__item card__description">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
-          deleniti incidunt rem. Voluptate, tempore quos, suscipit temporibus
-          autem sapiente.
-        </div>
-        <a href="#" class="card__item card__link">Read more</a>
+      <div id="b3">
+        <img src="https://www.cdc.gov/healthypets/images/pets/cute-dog-headshot.jpg?_=42445" alt="">
       </div>
-      <div class="card">
-        <h3 class="card__item card__title">Title</h3>
-        <div class="card__item card__img">Image</div>
-        <div class="card__item card__description">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
-          deleniti incidunt rem. Voluptate, tempore quos, suscipit temporibus
-          autem sapiente.
-        </div>
-        <a href="#" class="card__item card__link">Read more</a>
+      <div id="b4">
+        <img src="https://hips.hearstapps.com/ghk.h-cdn.co/assets/16/08/gettyimages-530330473.jpg?crop=0.659xw:0.990xh;0.123xw,0.00779xh&resize=980:*" alt="">
       </div>
-      <div class="card">
-        <h3 class="card__item card__title">Title</h3>
-        <div class="card__item card__img">Image</div>
-        <div class="card__item card__description">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
-          deleniti incidunt rem. Voluptate, tempore quos, suscipit temporibus
-          autem sapiente.
-        </div>
-        <a href="#" class="card__item card__link">Read more</a>
-      </div>
-      <div class="card">
-        <h3 class="card__item card__title">Title</h3>
-        <div class="card__item card__img">Image</div>
-        <div class="card__item card__description">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
-          deleniti incidunt rem. Voluptate, tempore quos, suscipit temporibus
-          autem sapiente.
-        </div>
-        <a href="#" class="card__item card__link">Read more</a>
-      </div>
-      <div class="card">
-        <h3 class="card__item card__title">Title</h3>
-        <div class="card__item card__img">Image</div>
-        <div class="card__item card__description">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
-          deleniti incidunt rem. Voluptate, tempore quos, suscipit temporibus
-          autem sapiente.
-        </div>
-        <a href="#" class="card__item card__link">Read more</a>
-      </div>
-      <div class="card">
-        <h3 class="card__item card__title">Title</h3>
-        <div class="card__item card__img">Image</div>
-        <div class="card__item card__description">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
-          deleniti incidunt rem. Voluptate, tempore quos, suscipit temporibus
-          autem sapiente.
-        </div>
-        <a href="#" class="card__item card__link">Read more</a>
+      <div id="b5">
+        <img src="https://image.petmd.com/files/styles/978x550/public/dog-allergies.jpg" alt="">
       </div>
     </div>
   </body>

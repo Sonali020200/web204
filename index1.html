@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>responsive-card</title>
+    <style>
+      .card-list {
+        background-color: gold;
+        border: 3px dotted black;
+        padding: 20px;
+      }
+
+      /* individual card  */
+      .card {
+        border: 3px solid #333;
+        background-color: #dfdfdf;
+        font-size: 20px;
+        padding: 15px;
+      }
+
+      .card__item {
+        border: 1px dashed;
+      }
+      .card__title {
+        margin: 0;
+      }
+
+      .card__img {
+        background-color: dodgerblue;
+        min-height: 100px;
+      }
+
+      /* Background Styles */
+      html {
+        height: 100%;
+        box-sizing: border-box;
+      }
+
+      *,
+      *:before,
+      *:after {
+        box-sizing: inherit;
+      }
+
+      body {
+        padding: 30px;
+      }
+
+      /* Add code for min-width: 576px */
+      @media screen and (min-width: 576px) {
+  .card {
+    margin: 1em 2em;
+  }
+}
+
+      /* Add code for min-width: 768px 
+      
+       HINT: You can use grid-column and grid-row for aligning the image at left end*/
+       @media screen and (min-width: 768px) {
+  .card {
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  }
+}
+
+       
+    </style>
+  </head>
+
+  <body>
+    <div class="card-list">
+      <div class="card">
+        <h3 class="card__item card__title">Title</h3>
+        <div class="card__item card__img">Image</div>
+        <div class="card__item card__description">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
+          deleniti incidunt rem. Voluptate, tempore quos, suscipit temporibus
+          autem sapiente.
+        </div>
+        <a href="#" class="card__item card__link">Read more</a>
+      </div>
+      <div class="card">
+        <h3 class="card__item card__title">Title</h3>
+        <div class="card__item card__img">Image</div>
+        <div class="card__item card__description">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
+          deleniti incidunt rem. Voluptate, tempore quos, suscipit temporibus
+          autem sapiente.
+        </div>
+        <a href="#" class="card__item card__link">Read more</a>
+      </div>
+      <div class="card">
+        <h3 class="card__item card__title">Title</h3>
+        <div class="card__item card__img">Image</div>
+        <div class="card__item card__description">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
+          deleniti incidunt rem. Voluptate, tempore quos, suscipit temporibus
+          autem sapiente.
+        </div>
+        <a href="#" class="card__item card__link">Read more</a>
+      </div>
+      <div class="card">
+        <h3 class="card__item card__title">Title</h3>
+        <div class="card__item card__img">Image</div>
+        <div class="card__item card__description">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
+          deleniti incidunt rem. Voluptate, tempore quos, suscipit temporibus
+          autem sapiente.
+        </div>
+        <a href="#" class="card__item card__link">Read more</a>
+      </div>
+      <div class="card">
+        <h3 class="card__item card__title">Title</h3>
+        <div class="card__item card__img">Image</div>
+        <div class="card__item card__description">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
+          deleniti incidunt rem. Voluptate, tempore quos, suscipit temporibus
+          autem sapiente.
+        </div>
+        <a href="#" class="card__item card__link">Read more</a>
+      </div>
+      <div class="card">
+        <h3 class="card__item card__title">Title</h3>
+        <div class="card__item card__img">Image</div>
+        <div class="card__item card__description">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
+          deleniti incidunt rem. Voluptate, tempore quos, suscipit temporibus
+          autem sapiente.
+        </div>
+        <a href="#" class="card__item card__link">Read more</a>
+      </div>
+      <div class="card">
+        <h3 class="card__item card__title">Title</h3>
+        <div class="card__item card__img">Image</div>
+        <div class="card__item card__description">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
+          deleniti incidunt rem. Voluptate, tempore quos, suscipit temporibus
+          autem sapiente.
+        </div>
+        <a href="#" class="card__item card__link">Read more</a>
+      </div>
+      <div class="card">
+        <h3 class="card__item card__title">Title</h3>
+        <div class="card__item card__img">Image</div>
+        <div class="card__item card__description">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
+          deleniti incidunt rem. Voluptate, tempore quos, suscipit temporibus
+          autem sapiente.
+        </div>
+        <a href="#" class="card__item card__link">Read more</a>
+      </div>
+    </div>
+  </body>
+</html>
